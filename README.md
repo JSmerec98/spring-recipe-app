@@ -2,4 +2,4 @@
 
 # Spring framework Recipe Application
 
-Spring recipe application
+Spring Recipe Application
