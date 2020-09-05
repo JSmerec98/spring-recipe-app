@@ -7,14 +7,13 @@ import com.jansmerecki.domain.Ingredient;
 import com.jansmerecki.domain.Recipe;
 import com.jansmerecki.repositories.RecipeRepository;
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.*;
 
 public class IngredientServiceImplTest {
@@ -26,7 +25,6 @@ public class IngredientServiceImplTest {
 
     IngredientService ingredientService;
 
-    //init converters
     public IngredientServiceImplTest() {
         this.ingredientToIngredientCommand = new IngredientToIngredientCommand(new UnitOfMeasureToUnitOfMeasureCommand());
     }
