@@ -5,8 +5,8 @@
 Spring Framework Recipe Application
 
 Functionalities for Recipes and Ingredients:
--Add
--View
--Update
--Delete
+*Add
+*View
+*Update
+*Delete
 
