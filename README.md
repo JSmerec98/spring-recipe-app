@@ -1,5 +1,12 @@
 [![CircleCI](https://circleci.com/gh/JSmerec98/spring-recipe-app.svg?style=svg)](https://circleci.com/gh/JSmerec98/spring-recipe-app)
 
-# Spring framework Recipe Application
+# Recipe Application #
 
-Spring Recipe Application
+## Spring Framework Recipe Application ##
+
+Functionalities for **Recipes** and **Ingredients** :
+- Add
+- View
+- Update
+- Delete
+
