@@ -11,6 +11,5 @@ public class ImageServiceImpl implements ImageService {
     public void saveImageFile(Long recipeId, MultipartFile file) {
 
         log.debug("Received a file");
-
     }
 }
